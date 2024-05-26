@@ -22,6 +22,6 @@ NavMap软件基于Android Studio开发，实现了以下功能：
 
 Note：
 
-成本所限，现在服务器已经关闭，功能无法测试。用户可修改代码中的setTileSource连接到自己配置的服务器。
+成本所限，现在服务器已经关闭，功能无法测试。用户可修改代码中的setTileSource连接到自己配置的服务器，或使用离线地图瓦片，注意修改路径查询等类相应的部分。。
 
 HUAWEI Nova 10 pro的NavMap APP测试视频在./video目录下。仅供参考。
