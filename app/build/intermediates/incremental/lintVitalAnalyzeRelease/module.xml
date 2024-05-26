@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app"
+    name=":app"
+    type="APP"
+    maven="NavMap:app:"
+    agpVersion="8.3.2"
+    buildFolder="build"
+    bootClassPath="D:\AndroidStudio\SDK\platforms\android-34\android.jar;D:\AndroidStudio\SDK\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

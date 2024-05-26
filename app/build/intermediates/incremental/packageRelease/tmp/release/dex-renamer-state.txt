@@ -1,0 +1,4 @@
+#Fri May 03 14:56:53 CST 2024
+base.0=E\:\\03-Junior_year\\second_semester\\NavigationElectronicMap\\NavMap\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

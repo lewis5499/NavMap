@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">NavMap</string>
+    <style name="Base.Theme.NavMap" parent="Theme.Material3.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        
+        <item name="android:windowTranslucentStatus">true</item>
+        
+        <item name="android:windowBackground">@drawable/splash_screen_background_signature</item>
+    </style>
+    <style name="Theme.NavMap" parent="Base.Theme.NavMap"> </style>
+</resources>

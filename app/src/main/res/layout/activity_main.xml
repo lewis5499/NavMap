@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/osmMapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120sp"
+        tools:layout_editor_absoluteX="105sp"
+        tools:layout_editor_absoluteY="0sp" />
+
+    <ImageView
+        android:id="@+id/m_compass"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="35sp"
+        android:src="@drawable/ic_compass" />
+
+    <ImageView
+        android:id="@+id/m_pos"
+        android:layout_width="53dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="35sp"
+        android:src="@drawable/img_pos_compass2" />
+
+    <Button
+        android:id="@+id/m_btnRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="10sp"
+        android:text="Search for Routes"
+        android:foregroundTint="@android:color/white"
+        android:foreground="@drawable/ripple_effect" />
+
+
+    <Button
+        android:id="@+id/m_coordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="65sp"
+        android:text="Get User Location"
+        android:foregroundTint="@android:color/white"
+        android:foreground="@drawable/ripple_effect"/>
+
+    <TextView
+        android:id="@+id/text_src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9sp"
+        android:layout_marginBottom="75sp"
+        android:text="Start:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16sp"
+        android:layout_marginBottom="19sp"
+        android:text="End:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_src"
+        android:layout_width="186sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63sp"
+        android:layout_marginBottom="65sp"
+        android:text="30.53717,114.3488"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText_dest"
+        android:layout_width="185sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63sp"
+        android:layout_marginBottom="9sp"
+        android:text="30.53800,114.3718"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/m_logo"
+        android:layout_width="27dp"
+        android:layout_height="260dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/m_android_logo"
+        android:layout_width="50dp"
+        android:layout_height="260dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_android_logo" />
+
+</RelativeLayout>

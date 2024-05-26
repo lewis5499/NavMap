@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.example.navmap.app-release-32:/layout_activity_main.xml.flat",
+        "source": "com.example.navmap.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_null.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_null.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xhdpi_icon_round.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xhdpi/icon_round.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_ic_compass.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/ic_compass.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_ripple_effect.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/ripple_effect.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_full_compass.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_full_compass.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxxhdpi_icon_round.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxxhdpi/icon_round.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-mdpi_icon.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-mdpi_icon_round.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-mdpi/icon_round.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxhdpi_icon.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_still2p.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_still2p.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_start.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_start.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_splash_screen_background_signature.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/splash_screen_background_signature.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_splash_screen_background.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/splash_screen_background.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxxhdpi_icon.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-hdpi_icon_round.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-hdpi/icon_round.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_nav_blue.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_nav_blue.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_ic_android_logo.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/ic_android_logo.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_splash_screen_background1.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/splash_screen_background1.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_still2.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_still2.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/layout_activity_splash.xml.flat",
+        "source": "com.example.navmap.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_compass2.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_compass2.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_ic_logo.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxhdpi_icon_round.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxhdpi/icon_round.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.navmap.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_still.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_still.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_nav.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_nav.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-hdpi_icon.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-hdpi/icon.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_end.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_end.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos_compass.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos_compass.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_pos.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_pos.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/mipmap-xhdpi_icon.png.flat",
+        "source": "com.example.navmap.app-main-33:/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_icon.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/icon.png"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.navmap.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.navmap.app-release-32:/drawable_img_compass.png.flat",
+        "source": "com.example.navmap.app-main-33:/drawable/img_compass.png"
+    }
+]

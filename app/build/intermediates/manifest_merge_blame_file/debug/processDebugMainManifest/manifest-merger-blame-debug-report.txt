@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.navmap"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:5:5-66
+11-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:5:22-63
+12    <!-- 允许访问网络，必选权限 -->
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:36:5-67
+13-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:36:22-64
+14    <!-- 允许访问震动传感器，必选权限 -->
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:5:5-66
+15-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:5:22-63
+16
+17    <!-- 允许获取粗略位置，若用GPS实现定位小蓝点功能则必选 -->
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:41:5-81
+18-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:41:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:42:5-79
+19-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:42:22-76
+20    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+20-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:43:5-89
+20-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:43:22-86
+21
+22    <!-- 允许获取网络状态，用于网络定位，若无gps但仍需实现定位小蓝点功能则此权限必选 -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:46:5-79
+23-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:46:22-76
+24
+25    <!-- 允许获取wifi网络信息，用于网络定位，若无gps但仍需实现定位小蓝点功能则此权限必选 -->
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:49:5-76
+26-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:49:22-73
+27
+28    <!-- 允许获取wifi状态改变，用于网络定位，若无gps但仍需实现定位小蓝点功能则此权限必选 -->
+29    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+29-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:52:5-76
+29-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:52:22-73
+30
+31    <!-- 获取传感器相关权限 -->
+32    <uses-permission android:name="android.permission.ACCESS_MAGNETIC_FIELD" />
+32-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:55:5-80
+32-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:55:22-77
+33    <uses-permission android:name="android.permission.ACCESS_ACCELEROMETER" />
+33-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:56:5-79
+33-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:56:22-76
+34    <uses-permission android:name="android.permission.ACCESS_GYROSCOPE" />
+34-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:57:5-75
+34-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:57:22-72
+35
+36    <!-- 允许写入扩展存储，用于数据缓存，若无此权限则写到私有目录 -->
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:61:5-81
+37-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:61:22-78
+38
+39    <supports-screens
+39-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+40        android:anyDensity="true"
+40-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+41        android:largeScreens="true"
+41-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+42        android:normalScreens="true" />
+42-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+43
+44    <uses-feature
+44-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+45        android:name="android.hardware.location.network"
+45-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+46        android:required="false" />
+46-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+47    <uses-feature
+47-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+48        android:name="android.hardware.location.gps"
+48-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+49        android:required="false" />
+49-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+50    <uses-feature
+50-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+51        android:name="android.hardware.telephony"
+51-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+52        android:required="false" />
+52-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+53    <uses-feature
+53-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+54        android:name="android.hardware.wifi"
+54-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+55        android:required="false" />
+55-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\29621\.gradle\caches\transforms-3\bb366941e4b958cea4afd27740813776\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+56
+57    <permission
+57-->[androidx.core:core:1.9.0] C:\Users\29621\.gradle\caches\transforms-3\b88084b88231bd19a287067b2b52e8ec\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+58        android:name="com.example.navmap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.9.0] C:\Users\29621\.gradle\caches\transforms-3\b88084b88231bd19a287067b2b52e8ec\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.9.0] C:\Users\29621\.gradle\caches\transforms-3\b88084b88231bd19a287067b2b52e8ec\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.example.navmap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.9.0] C:\Users\29621\.gradle\caches\transforms-3\b88084b88231bd19a287067b2b52e8ec\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.9.0] C:\Users\29621\.gradle\caches\transforms-3\b88084b88231bd19a287067b2b52e8ec\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:6:5-34:19
+64        android:allowBackup="true"
+64-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:7:9-35
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.9.0] C:\Users\29621\.gradle\caches\transforms-3\b88084b88231bd19a287067b2b52e8ec\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+66        android:dataExtractionRules="@xml/data_extraction_rules"
+66-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:8:9-65
+67        android:debuggable="true"
+68        android:extractNativeLibs="false"
+69        android:fullBackupContent="@xml/backup_rules"
+69-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:9:9-54
+70        android:icon="@mipmap/icon"
+70-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:10:9-36
+71        android:label="@string/app_name"
+71-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:11:9-41
+72        android:roundIcon="@mipmap/icon_round"
+72-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:12:9-47
+73        android:supportsRtl="true"
+73-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:13:9-35
+74        android:testOnly="true"
+75        android:theme="@style/Theme.NavMap"
+75-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:14:9-44
+76        android:usesCleartextTraffic="true" >
+76-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:15:9-44
+77        <activity
+77-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:18:9-28:20
+78            android:name="com.example.navmap.SplashActivity"
+78-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:19:13-43
+79            android:exported="true"
+79-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:21:13-36
+80            android:theme="@style/SplashTheme" >
+80-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:20:13-47
+81            <intent-filter>
+81-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:23:13-27:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:24:17-69
+82-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:24:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:26:17-77
+84-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:26:27-74
+85            </intent-filter>
+86        </activity>
+87        <activity android:name="com.example.navmap.MainActivity" >
+87-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:30:9-32:20
+87-->E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\src\main\AndroidManifest.xml:31:13-41
+88        </activity>
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+92            android:authorities="com.example.navmap.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\29621\.gradle\caches\transforms-3\410b8cb19be7bfcefdf9586f064a7a12\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\29621\.gradle\caches\transforms-3\3885de7994411a9a804c4555d88370af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\29621\.gradle\caches\transforms-3\3885de7994411a9a804c4555d88370af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\29621\.gradle\caches\transforms-3\3885de7994411a9a804c4555d88370af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+102                android:value="androidx.startup" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+103        </provider>
+104
+105        <receiver
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+107            android:directBootAware="false"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+108            android:enabled="true"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+109            android:exported="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+110            android:permission="android.permission.DUMP" >
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\29621\.gradle\caches\transforms-3\dee77423cae074183d78520abd0bdd8d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+122            </intent-filter>
+123        </receiver>
+124    </application>
+125
+126</manifest>

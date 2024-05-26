@@ -1,0 +1,6 @@
+com.example.navmap.test.app-core-1.5.0-0 C:\Users\29621\.gradle\caches\transforms-3\8cb97d565e9897fc7b44774ccd5161d4\transformed\core-1.5.0\res
+com.example.navmap.test.app-annotation-experimental-1.3.0-1 C:\Users\29621\.gradle\caches\transforms-3\900298ea81e6989ce3eed66357fa9c00\transformed\annotation-experimental-1.3.0\res
+com.example.navmap.test.app-androidTest-2 E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\build\generated\res\resValues\androidTest\debug
+com.example.navmap.test.app-mergeDebugAndroidTestResources-3 E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.navmap.test.app-mergeDebugAndroidTestResources-4 E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.navmap.test.app-debugAndroidTest-5 E:\03-Junior_year\second_semester\NavigationElectronicMap\NavMap\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

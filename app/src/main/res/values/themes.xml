@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavMap" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.NavMap" parent="Base.Theme.NavMap"> </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- 实现状态栏透明效果 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- 设置启动页背景 -->
+        <item name="android:windowBackground">@drawable/splash_screen_background_signature</item>
+    </style>
+
+</resources>
