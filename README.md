@@ -2,7 +2,7 @@
 
 Contact：lewis5499@whu.edu.cn
 
-NavMap软件基于Android Studio开发，实现了以下功能：
+NavMap（导航电子地图）软件基于Android Studio开发，实现了以下功能：
 
 ·实现屏幕点击选取路径点的路径查询；
 
